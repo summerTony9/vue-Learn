@@ -1,5 +1,4 @@
 <script setup>
-import MyButton from "./MyButton.vue";
 defineProps({
   msg: {
     type: String,
@@ -10,7 +9,6 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <MyButton></MyButton>
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
